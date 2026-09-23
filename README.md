@@ -181,14 +181,6 @@ The QR settings can also be adjusted for different output requirements:
 - Add a small web interface using Flask or Streamlit.
 - Add dependency management with `requirements.txt` and automated checks with GitHub Actions.
 
-## Interview Talking Points
-
-- **Problem:** Make a developer profile immediately accessible from a physical resume or portfolio.
-- **Solution:** Encode the profile URL into a styled QR image and export it as a reusable artifact.
-- **Technical decision:** Use high QR error correction and a quiet border to improve scan reliability.
-- **Data flow:** URL → QR matrix → Pillow RGB image → PNG/OpenCV preview.
-- **Extension path:** Separate configuration, generation, export, and preview into testable modules, then expose a CLI or web interface.
-
 ## License
 
 This project is available under the [MIT License](LICENSE).
