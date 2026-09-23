@@ -1,32 +1,74 @@
-📱 **Custom GitHub QR Code Generator Using Python**
-📌 **Project Overview**
+# GitHub QR Code Generator
 
-This project is a Python-based QR Code Generator designed to create a custom-styled QR code for a GitHub profile. The generated QR code is static, high-quality, and resume-ready, enabling quick access to a developer’s GitHub portfolio through a simple scan.
+A Python project that generates a custom QR code for a GitHub profile, making it easy to share a developer portfolio or resume profile with a quick scan.
 
-🎯  **Key Features**
-Generates a QR code for any GitHub profile URL
-Supports custom color styling
-High error correction level for reliable scanning
-Saves QR code as a PNG image
-Displays the QR code using OpenCV for instant verification
-Optimized for resumes, portfolios, and professional profiles
+This is a simple, portfolio-friendly project built to demonstrate practical Python skills, image processing, and QR generation for real-world use cases.
 
-**🛠️ Technologies Used**
-Python
-qrcode – QR code generation
-OpenCV (cv2) – Image display
-NumPy – Image array processing
-Pillow (PIL) – Image handling
+## Screenshot
 
-**⚙️ How It Works**
-Accepts a GitHub profile URL as input
-Applies a custom color theme to the QR code
-Generates a scannable QR image
-Saves the output as a PNG file
-Displays the QR code for visual confirmation
+![GitHub QR Code Preview](github_qr_resume.png)
 
-**🚀 Use Cases**
-Resume enhancement
-Developer portfolio sharing
-Personal branding
-Quick access to GitHub repositories
+## Project Overview
+
+The application takes a GitHub profile link, creates a high-quality QR code, and saves it as a PNG image. The generated QR code is designed to be clean, scannable, and suitable for resumes, personal portfolios, and professional introductions.
+
+## Key Features
+
+- Generates a QR code for any GitHub profile URL
+- Supports custom color styling
+- Uses high error correction for reliable scanning
+- Saves the QR image as a PNG file
+- Displays the generated QR code for instant verification
+- Suitable for resumes, portfolios, and developer branding
+
+## Tech Stack
+
+- Python
+- qrcode
+- OpenCV (cv2)
+- NumPy
+- Pillow (PIL)
+
+## How It Works
+
+1. Define the GitHub profile URL
+2. Generate a QR code using the qrcode library
+3. Apply custom styling and colors
+4. Save the output as a PNG image
+5. Display the QR code for visual confirmation
+
+## Example Use Cases
+
+- Resume enhancement
+- Portfolio profile sharing
+- Personal branding
+- Quick access to GitHub repositories
+- Interview project demo
+
+## Run the Project
+
+Install the required packages:
+
+```bash
+pip install qrcode opencv-python numpy pillow
+```
+
+Run the script:
+
+```bash
+python app.py
+```
+
+The script will generate the QR code and save it as `github_qr_resume.png`.
+
+## Interview Presentation Summary
+
+This project highlights practical Python development skills, including:
+
+- QR code generation
+- Image processing
+- Working with external libraries
+- Creating a usable and visually polished output
+- Building a small but valuable developer tool for profile sharing
+
+It demonstrates how simple ideas can become professional, presentation-ready solutions that are useful in real-world networking and personal branding scenarios.
